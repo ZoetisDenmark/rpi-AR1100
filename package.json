@@ -4,7 +4,7 @@
   "description": "Utility for calibrating the AR1100 touchscreen",
   "author": "Zoetis Denmark",
   "scripts": {
-      "preinstall": "sudo apt install -y libusb1.0.0-dev libgtk+2.0-dev",
+      "preinstall": "sudo apt install -y libusb-1.0-0-dev libgtk2.0-dev",
       "install": "make -j4",
       "setup": "true",
       "wipe": "DIR=$PWD; cd ..; rm -rf $DIR"
