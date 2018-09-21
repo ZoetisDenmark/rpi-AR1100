@@ -1,0 +1,12 @@
+{
+  "name": "@zoetisdenmark/ar1100_calibrator",
+  "version": "1.0.0",
+  "description": "Utility for calibrating the AR1100 touchscreen",
+  "author": "Zoetis Denmark",
+  "scripts": {
+      "preinstall": "sudo apt install -y libusb1.0.0-dev libgtk+2.0-dev",
+      "install": "make -j4",
+      "setup": "true",
+      "wipe": "DIR=$PWD; cd ..; rm -rf $DIR"
+  }
+}
