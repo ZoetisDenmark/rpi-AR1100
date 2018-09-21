@@ -5,7 +5,7 @@
   "author": "Zoetis Denmark",
   "scripts": {
       "preinstall": "sudo apt install -y libusb-1.0-0-dev libgtk2.0-dev",
-      "install": "make -j4",
+      "install": "make -j4 && sudo make install",
       "setup": "true",
       "wipe": "DIR=$PWD; cd ..; rm -rf $DIR"
   }

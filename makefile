@@ -44,3 +44,6 @@ $(APPNAME): $(OBJS)
 # remove compilation files
 clean:
 	rm -f $(APPNAME) *.o *.d
+	
+install:
+	cp $(APPNAME) /usr/bin
